@@ -1,0 +1,18 @@
+{
+  "feats": "psd",
+  "fuse": 10,
+  "n_eval": 29,
+  "subsample_k": 23,
+  "boot": 300,
+  "within_EER": 5.24,
+  "within_CI95": [
+    4.3,
+    6.06
+  ],
+  "cross_EER": 42.78,
+  "cross_CI95": [
+    41.33,
+    44.64
+  ],
+  "method": "subject subsampling (80%, without replacement) \u2014 corrects v2 duplicate-impostor bias"
+}

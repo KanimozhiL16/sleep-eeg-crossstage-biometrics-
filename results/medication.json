@@ -1,0 +1,8 @@
+{
+  "n_subjects": 0,
+  "within_recording_sameStage_EER": 0.35,
+  "cross_recording_sameStage_EER": NaN,
+  "labels_note": "recA/recB = the two telemetry nights (one placebo, one temazepam). Map drug via ST-subjects.xls if exact placebo->temazepam direction needed.",
+  "caveats": "cross-corpus encoder (trained on Sleep-Cassette); held-out subjects (no leakage); small n; supplementary result.",
+  "interpretation": "If cross-recording EER >> within-recording, identity degrades across the two telemetry nights (one drugged) -> medication/another-night changes the brainprint."
+}

@@ -1,0 +1,12 @@
+{
+  "n_subjects": 73,
+  "within_stage_mean_EER": 28.730993270874023,
+  "cross_stage_mean_EER": 45.42944177985191,
+  "within_by_stage": {
+    "W": 35.71,
+    "N1": 31.58,
+    "N2": 28.57,
+    "N3": 22.17,
+    "REM": 25.63
+  }
+}

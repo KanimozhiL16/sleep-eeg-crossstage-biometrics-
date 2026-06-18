@@ -1,0 +1,17 @@
+{
+  "method": "lda_fuse10",
+  "n_train": 44,
+  "n_eval": 29,
+  "within_EER": 0.97,
+  "cross_EER": 25.36,
+  "within_CI95": [
+    2.41,
+    5.59
+  ],
+  "cross_CI95": [
+    22.56,
+    29.7
+  ],
+  "random_identity_baseline_EER": 49.34,
+  "leakage_check": "PASS: TRAIN/EVAL subject-disjoint (asserted); LDA fit on TRAIN only; enrol/probe disjoint epochs; impostors subject-disjoint."
+}

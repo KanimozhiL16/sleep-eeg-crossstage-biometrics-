@@ -1,0 +1,5 @@
+{
+  "matched_threshold_HTER_mean": 0.21,
+  "mismatched_threshold_HTER_mean": 0.77,
+  "interpretation": "Threshold calibrated on stage A applied to stage B. If off-diagonal HTER >> diagonal, a fixed operating point does NOT transfer across stages -> security risk; stage-specific calibration needed."
+}

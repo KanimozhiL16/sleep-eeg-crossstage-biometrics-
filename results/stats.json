@@ -1,0 +1,49 @@
+{
+  "eval_n": 29,
+  "fuse": 10,
+  "boot": 2000,
+  "gap_within_vs_cross_encoder": {
+    "tag": "encoder",
+    "n_paired": 29,
+    "within_mean": 0.12,
+    "cross_mean": 12.56,
+    "mean_diff_cross_minus_within": 12.43,
+    "diff_95CI_bootstrap": [
+      8.74,
+      16.72
+    ],
+    "cohens_d": 1.14,
+    "within_median": 0.0,
+    "cross_median": 8.15,
+    "wilcoxon_cross_gt_within_p": 1.862645149230957e-09,
+    "wilcoxon_stat": 435.0
+  },
+  "gap_within_vs_cross_psd_cosine": {
+    "tag": "psd_cosine",
+    "n_paired": 29,
+    "within_mean": 6.06,
+    "cross_mean": 45.08,
+    "mean_diff_cross_minus_within": 39.02,
+    "diff_95CI_bootstrap": [
+      35.87,
+      42.19
+    ],
+    "cohens_d": 4.36,
+    "within_median": 6.17,
+    "cross_median": 43.94,
+    "wilcoxon_cross_gt_within_p": 1.862645149230957e-09,
+    "wilcoxon_stat": 435.0
+  },
+  "method_encoder_vs_cosine_within": {
+    "n_paired": 29,
+    "encoder_within_mean": 0.12,
+    "cosine_within_mean": 6.06,
+    "improvement_cosine_minus_encoder": 5.93,
+    "improvement_95CI_bootstrap": [
+      4.85,
+      6.99
+    ],
+    "wilcoxon_cosine_gt_encoder_p": 1.8948097207904354e-06
+  },
+  "note": "Per-subject EERs (paired by subject). Wilcoxon signed-rank one-sided + paired bootstrap 95% CI of the difference + Cohen's d. Leakage-safe: EVAL subjects only, subject-disjoint impostors."
+}

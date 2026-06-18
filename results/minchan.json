@@ -1,0 +1,16 @@
+{
+  "fuse": 10,
+  "channels": {
+    "Fpz-Cz_only": {
+      "within_EER": 9.08,
+      "cross_EER": 44.5,
+      "n_subjects": 29
+    },
+    "both": {
+      "within_EER": 4.65,
+      "cross_EER": 42.24,
+      "n_subjects": 29
+    }
+  },
+  "note": "PSD-cosine features; Fpz-Cz is a forehead electrode used by consumer sleep headbands."
+}

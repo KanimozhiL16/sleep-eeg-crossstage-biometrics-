@@ -1,0 +1,27 @@
+{
+  "n_subjects_both_nights": 28,
+  "cross_night_same_stage_EER": 17.28,
+  "cross_night_same_stage_CI95": [
+    14.21,
+    19.61
+  ],
+  "cross_night_AND_cross_stage_EER": 23.87,
+  "cross_night_cross_stage_CI95": [
+    20.72,
+    26.27
+  ],
+  "same_stage_by_stage": {
+    "W": 12.64,
+    "N1": 16.45,
+    "N2": 19.94,
+    "N3": 21.65,
+    "REM": 15.72
+  },
+  "random_baseline_EER": 49.58,
+  "reference_within_night1_encoder_fuse10": {
+    "within": 0.21,
+    "cross_stage": 9.58
+  },
+  "leakage_check": "PASS: encoder trained on night-1 TRAIN subjects only; EVAL night-2 never seen; z-norm from night-1 TRAIN; enrol(N1)/probe(N2) different nights.",
+  "interpretation": "Compare cross-night-same-stage vs within-night1 (0.21%) to see identity drift across nights; cross-night+cross-stage is the hardest real-world case."
+}

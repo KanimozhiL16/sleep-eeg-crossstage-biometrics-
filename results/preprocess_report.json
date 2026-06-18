@@ -1,0 +1,11 @@
+{
+  "bandpass_Hz": [
+    1.0,
+    45.0
+  ],
+  "reject_uV": 500.0,
+  "epoch_sec": 30.0,
+  "kept_epochs": 198787,
+  "rejected_epochs": 0,
+  "note": "ICA intentionally omitted: Sleep-EDF has 2 EEG channels; ICA needs many."
+}

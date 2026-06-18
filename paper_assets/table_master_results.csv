@@ -1,0 +1,7 @@
+Condition,EER_%,95%CI
+"Within-stage (encoder, fuse10)",0.21,"[2.09, 5.39]"
+"Cross-stage (encoder, fuse10)",9.58,"[9.36, 14.0]"
+Cross-night same-stage,17.28,"[14.21, 19.61]"
+Cross-night + cross-stage,23.87,"[20.72, 26.27]"
+Within-stage FRR@FAR=1%,0.28,
+"Multi-stage (all5) enrol, mean probe",4.39,

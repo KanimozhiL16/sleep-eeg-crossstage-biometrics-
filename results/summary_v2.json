@@ -1,0 +1,72 @@
+{
+  "n_train": 44,
+  "n_eval": 29,
+  "methods": {
+    "cosine_fuse1": {
+      "within": 28.34,
+      "cross": 45.0,
+      "within_by_stage": {
+        "W": 30.06,
+        "N1": 34.09,
+        "N2": 28.84,
+        "N3": 25.11,
+        "REM": 23.6
+      }
+    },
+    "cosine_fuse5": {
+      "within": 10.6,
+      "cross": 43.07,
+      "within_by_stage": {
+        "W": 12.35,
+        "N1": 14.47,
+        "N2": 10.44,
+        "N3": 8.71,
+        "REM": 7.06
+      }
+    },
+    "cosine_fuse10": {
+      "within": 5.24,
+      "cross": 42.78,
+      "within_by_stage": {
+        "W": 6.43,
+        "N1": 8.31,
+        "N2": 4.52,
+        "N3": 4.11,
+        "REM": 2.83
+      }
+    },
+    "lda_fuse1": {
+      "within": 12.87,
+      "cross": 30.33,
+      "within_by_stage": {
+        "W": 16.38,
+        "N1": 13.12,
+        "N2": 11.93,
+        "N3": 13.61,
+        "REM": 9.3
+      }
+    },
+    "lda_fuse5": {
+      "within": 2.82,
+      "cross": 26.15,
+      "within_by_stage": {
+        "W": 4.96,
+        "N1": 2.77,
+        "N2": 2.21,
+        "N3": 2.66,
+        "REM": 1.5
+      }
+    },
+    "lda_fuse10": {
+      "within": 0.97,
+      "cross": 25.36,
+      "within_by_stage": {
+        "W": 2.19,
+        "N1": 0.67,
+        "N2": 0.65,
+        "N3": 0.9,
+        "REM": 0.44
+      }
+    }
+  }
+}

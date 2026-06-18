@@ -1,0 +1,12 @@
+{
+  "n_subjects": 28,
+  "reenroll_fraction_to_sameStageEER": {
+    "0.0": 17.42,
+    "0.05": 15.71,
+    "0.1": 14.25,
+    "0.25": 10.96,
+    "0.5": 7.49
+  },
+  "baseline_f0_is_night1only": 17.42,
+  "interpretation": "f=0 -> night-1-only template (cross-night drift). As f grows (more night-2 data folded into template), EER should drop -> quantifies how much re-enrolment restores accuracy after night drift."
+}

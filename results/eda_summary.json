@@ -1,0 +1,15 @@
+{
+  "n_subjects": 73,
+  "sfreq_set": [
+    100.0
+  ],
+  "channel": "Fpz-Cz",
+  "epochs_per_stage_total": {
+    "W": 136513,
+    "N1": 10376,
+    "N2": 33803,
+    "N3": 6162,
+    "REM": 11933
+  },
+  "epoch_sec": 30.0
+}

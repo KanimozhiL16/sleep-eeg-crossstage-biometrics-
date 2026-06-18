@@ -1,0 +1,12 @@
+{
+  "channels": [
+    "Fpz-Cz",
+    "Pz-Oz"
+  ],
+  "bandpass": [
+    1.0,
+    45.0
+  ],
+  "kept": 198787,
+  "rejected": 0
+}

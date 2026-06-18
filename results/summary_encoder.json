@@ -1,0 +1,54 @@
+{
+  "n_train": 44,
+  "n_eval": 29,
+  "emb_dim": 128,
+  "epochs": 40,
+  "methods": {
+    "encoder_fuse1": {
+      "within": 4.88,
+      "cross": 14.32,
+      "within_by_stage": {
+        "W": 8.68,
+        "N1": 3.87,
+        "N2": 4.67,
+        "N3": 3.61,
+        "REM": 3.57
+      }
+    },
+    "encoder_fuse5": {
+      "within": 0.57,
+      "cross": 10.28,
+      "within_by_stage": {
+        "W": 1.14,
+        "N1": 0.35,
+        "N2": 0.77,
+        "N3": 0.27,
+        "REM": 0.32
+      }
+    },
+    "encoder_fuse10": {
+      "within": 0.21,
+      "cross": 9.58,
+      "within_by_stage": {
+        "W": 0.33,
+        "N1": 0.27,
+        "N2": 0.29,
+        "N3": 0.0,
+        "REM": 0.17
+      }
+    }
+  },
+  "best_method": "encoder_fuse10",
+  "within_EER": 0.21,
+  "cross_EER": 9.58,
+  "within_CI95": [
+    2.09,
+    5.39
+  ],
+  "cross_CI95": [
+    9.36,
+    14.0
+  ],
+  "random_identity_baseline_EER": 49.88,
+  "leakage_check": "PASS: encoder trained on TRAIN subjects only; EVAL disjoint; z-norm stats from TRAIN; enrol/probe disjoint epochs."
+}

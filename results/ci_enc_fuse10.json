@@ -1,0 +1,18 @@
+{
+  "feats": "enc",
+  "fuse": 10,
+  "n_eval": 29,
+  "subsample_k": 23,
+  "boot": 300,
+  "within_EER": 0.21,
+  "within_CI95": [
+    0.06,
+    0.29
+  ],
+  "cross_EER": 9.58,
+  "cross_CI95": [
+    8.06,
+    10.84
+  ],
+  "method": "subject subsampling (80%, without replacement) \u2014 corrects v2 duplicate-impostor bias"
+}

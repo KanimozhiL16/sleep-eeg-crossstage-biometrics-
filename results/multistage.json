@@ -1,0 +1,33 @@
+{
+  "enrol_strategy_probeEER": {
+    "single_match": {
+      "W": 0.33,
+      "N1": 0.28,
+      "N2": 0.22,
+      "N3": 0.0,
+      "REM": 0.22
+    },
+    "all5": {
+      "W": 1.13,
+      "N1": 4.06,
+      "N2": 5.1,
+      "N3": 6.42,
+      "REM": 5.23
+    },
+    "N2N3REM": {
+      "W": 15.57,
+      "N1": 3.49,
+      "N2": 0.64,
+      "N3": 2.37,
+      "REM": 1.53
+    },
+    "N3only": {
+      "W": 17.79,
+      "N1": 8.29,
+      "N2": 5.28,
+      "N3": 0.0,
+      "REM": 8.39
+    }
+  },
+  "note": "Template built from enrol stage-set; probe each stage. 'single_match'=enrol==probe (within). 'all5'/'N2N3REM' = multi-stage template -> tests if a multi-stage enrolment reduces cross-stage EER (the FIX)."
+}

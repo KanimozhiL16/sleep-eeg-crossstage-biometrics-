@@ -1,0 +1,10 @@
+{
+  "n_pairs": 73,
+  "all_paired": true,
+  "suspect_small_files": [],
+  "psg_MB_range": [
+    42.7,
+    52.5
+  ],
+  "note": "MNE verifies its own download hashes on fetch; this checks pairing + non-truncation."
+}

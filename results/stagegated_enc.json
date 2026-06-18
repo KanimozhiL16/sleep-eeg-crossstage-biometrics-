@@ -1,0 +1,15 @@
+{
+  "feats": "enc",
+  "fuse": 10,
+  "stage_gated_within_EER": {
+    "W": 0.33,
+    "N1": 0.27,
+    "N2": 0.29,
+    "N3": 0.0,
+    "REM": 0.17
+  },
+  "best_stage": "N3",
+  "best_stage_EER": 0.0,
+  "stage_blind_EER": 0.62,
+  "interpretation": "If best-stage-gated EER << stage-blind EER, gating verification to the most identity-bearing stage (e.g., N3/REM) materially improves a deployed sleep-monitoring identity check."
+}

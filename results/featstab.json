@@ -1,0 +1,336 @@
+{
+  "n_subjects_all5stages": 55,
+  "n_features": 24,
+  "most_state_invariant_top5": [
+    {
+      "feature": "Fpz-Cz:r_theta/alpha",
+      "stability_index": 0.982,
+      "between_var": 0.0975,
+      "within_state_var": 0.0993
+    },
+    {
+      "feature": "Pz-Oz:hjorth_act",
+      "stability_index": 0.873,
+      "between_var": 0.287,
+      "within_state_var": 0.3288
+    },
+    {
+      "feature": "Fpz-Cz:r_sigma/alpha",
+      "stability_index": 0.61,
+      "between_var": 0.0596,
+      "within_state_var": 0.0977
+    },
+    {
+      "feature": "Pz-Oz:theta",
+      "stability_index": 0.577,
+      "between_var": 0.0507,
+      "within_state_var": 0.0878
+    },
+    {
+      "feature": "Pz-Oz:r_sigma/alpha",
+      "stability_index": 0.485,
+      "between_var": 0.0754,
+      "within_state_var": 0.1555
+    }
+  ],
+  "least_state_invariant_bottom5": [
+    {
+      "feature": "Fpz-Cz:hjorth_cmp",
+      "stability_index": 0.162,
+      "between_var": 0.1217,
+      "within_state_var": 0.7497
+    },
+    {
+      "feature": "Pz-Oz:spec_entropy",
+      "stability_index": 0.154,
+      "between_var": 0.0436,
+      "within_state_var": 0.2827
+    },
+    {
+      "feature": "Pz-Oz:beta",
+      "stability_index": 0.127,
+      "between_var": 0.1846,
+      "within_state_var": 1.4546
+    },
+    {
+      "feature": "Pz-Oz:hjorth_cmp",
+      "stability_index": 0.098,
+      "between_var": 0.0566,
+      "within_state_var": 0.5773
+    },
+    {
+      "feature": "Pz-Oz:hjorth_mob",
+      "stability_index": 0.065,
+      "between_var": 0.0042,
+      "within_state_var": 0.0648
+    }
+  ],
+  "full_ranking": [
+    {
+      "feature": "Fpz-Cz:r_theta/alpha",
+      "stability_index": 0.982,
+      "between_var": 0.0975,
+      "within_state_var": 0.0993
+    },
+    {
+      "feature": "Pz-Oz:hjorth_act",
+      "stability_index": 0.873,
+      "between_var": 0.287,
+      "within_state_var": 0.3288
+    },
+    {
+      "feature": "Fpz-Cz:r_sigma/alpha",
+      "stability_index": 0.61,
+      "between_var": 0.0596,
+      "within_state_var": 0.0977
+    },
+    {
+      "feature": "Pz-Oz:theta",
+      "stability_index": 0.577,
+      "between_var": 0.0507,
+      "within_state_var": 0.0878
+    },
+    {
+      "feature": "Pz-Oz:r_sigma/alpha",
+      "stability_index": 0.485,
+      "between_var": 0.0754,
+      "within_state_var": 0.1555
+    },
+    {
+      "feature": "Fpz-Cz:sigma",
+      "stability_index": 0.429,
+      "between_var": 0.1586,
+      "within_state_var": 0.3695
+    },
+    {
+      "feature": "Fpz-Cz:alpha",
+      "stability_index": 0.393,
+      "between_var": 0.1277,
+      "within_state_var": 0.3251
+    },
+    {
+      "feature": "Fpz-Cz:r_delta/alpha",
+      "stability_index": 0.368,
+      "between_var": 0.1894,
+      "within_state_var": 0.5147
+    },
+    {
+      "feature": "Fpz-Cz:delta",
+      "stability_index": 0.301,
+      "between_var": 0.0084,
+      "within_state_var": 0.0278
+    },
+    {
+      "feature": "Fpz-Cz:hjorth_mob",
+      "stability_index": 0.287,
+      "between_var": 0.0083,
+      "within_state_var": 0.029
+    },
+    {
+      "feature": "Fpz-Cz:hjorth_act",
+      "stability_index": 0.286,
+      "between_var": 0.1748,
+      "within_state_var": 0.6112
+    },
+    {
+      "feature": "Pz-Oz:sigma",
+      "stability_index": 0.281,
+      "between_var": 0.1225,
+      "within_state_var": 0.436
+    },
+    {
+      "feature": "Pz-Oz:alpha",
+      "stability_index": 0.275,
+      "between_var": 0.1112,
+      "within_state_var": 0.4044
+    },
+    {
+      "feature": "Fpz-Cz:spec_entropy",
+      "stability_index": 0.263,
+      "between_var": 0.0508,
+      "within_state_var": 0.1932
+    },
+    {
+      "feature": "Fpz-Cz:beta",
+      "stability_index": 0.251,
+      "between_var": 0.2952,
+      "within_state_var": 1.1747
+    },
+    {
+      "feature": "Pz-Oz:r_delta/alpha",
+      "stability_index": 0.249,
+      "between_var": 0.1911,
+      "within_state_var": 0.7686
+    },
+    {
+      "feature": "Fpz-Cz:theta",
+      "stability_index": 0.221,
+      "between_var": 0.0294,
+      "within_state_var": 0.1333
+    },
+    {
+      "feature": "Pz-Oz:r_theta/alpha",
+      "stability_index": 0.204,
+      "between_var": 0.0489,
+      "within_state_var": 0.2396
+    },
+    {
+      "feature": "Pz-Oz:delta",
+      "stability_index": 0.179,
+      "between_var": 0.0142,
+      "within_state_var": 0.079
+    },
+    {
+      "feature": "Fpz-Cz:hjorth_cmp",
+      "stability_index": 0.162,
+      "between_var": 0.1217,
+      "within_state_var": 0.7497
+    },
+    {
+      "feature": "Pz-Oz:spec_entropy",
+      "stability_index": 0.154,
+      "between_var": 0.0436,
+      "within_state_var": 0.2827
+    },
+    {
+      "feature": "Pz-Oz:beta",
+      "stability_index": 0.127,
+      "between_var": 0.1846,
+      "within_state_var": 1.4546
+    },
+    {
+      "feature": "Pz-Oz:hjorth_cmp",
+      "stability_index": 0.098,
+      "between_var": 0.0566,
+      "within_state_var": 0.5773
+    },
+    {
+      "feature": "Pz-Oz:hjorth_mob",
+      "stability_index": 0.065,
+      "between_var": 0.0042,
+      "within_state_var": 0.0648
+    }
+  ],
+  "wake_vs_sleep_largest_diffs_top8": [
+    {
+      "feature": "Pz-Oz:beta",
+      "wake_minus_sleep": 2.187
+    },
+    {
+      "feature": "Pz-Oz:hjorth_cmp",
+      "wake_minus_sleep": -1.128
+    },
+    {
+      "feature": "Fpz-Cz:hjorth_act",
+      "wake_minus_sleep": 1.085
+    },
+    {
+      "feature": "Pz-Oz:sigma",
+      "wake_minus_sleep": 1.037
+    },
+    {
+      "feature": "Pz-Oz:spec_entropy",
+      "wake_minus_sleep": 1.026
+    },
+    {
+      "feature": "Pz-Oz:r_delta/alpha",
+      "wake_minus_sleep": -1.022
+    },
+    {
+      "feature": "Fpz-Cz:beta",
+      "wake_minus_sleep": 1.004
+    },
+    {
+      "feature": "Pz-Oz:r_theta/alpha",
+      "wake_minus_sleep": -0.703
+    }
+  ],
+  "identity_discriminability_top5": [
+    {
+      "feature": "Pz-Oz:hjorth_act",
+      "discriminability": 1.476,
+      "state_robustness": 0.873
+    },
+    {
+      "feature": "Fpz-Cz:hjorth_mob",
+      "discriminability": 1.057,
+      "state_robustness": 0.287
+    },
+    {
+      "feature": "Pz-Oz:hjorth_mob",
+      "discriminability": 1.048,
+      "state_robustness": 0.065
+    },
+    {
+      "feature": "Fpz-Cz:hjorth_act",
+      "discriminability": 0.986,
+      "state_robustness": 0.286
+    },
+    {
+      "feature": "Pz-Oz:spec_entropy",
+      "discriminability": 0.984,
+      "state_robustness": 0.154
+    }
+  ],
+  "identity_discriminability_bottom5": [
+    {
+      "feature": "Pz-Oz:r_sigma/alpha",
+      "discriminability": 0.366,
+      "state_robustness": 0.485
+    },
+    {
+      "feature": "Fpz-Cz:r_sigma/alpha",
+      "discriminability": 0.354,
+      "state_robustness": 0.61
+    },
+    {
+      "feature": "Pz-Oz:hjorth_cmp",
+      "discriminability": 0.269,
+      "state_robustness": 0.098
+    },
+    {
+      "feature": "Pz-Oz:r_theta/alpha",
+      "discriminability": 0.268,
+      "state_robustness": 0.204
+    },
+    {
+      "feature": "Fpz-Cz:theta",
+      "discriminability": 0.251,
+      "state_robustness": 0.221
+    }
+  ],
+  "genuine_identity_carriers_top5_combined": [
+    {
+      "feature": "Pz-Oz:hjorth_act",
+      "combined": 1.135,
+      "discriminability": 1.476,
+      "state_robustness": 0.873
+    },
+    {
+      "feature": "Fpz-Cz:r_theta/alpha",
+      "combined": 0.75,
+      "discriminability": 0.573,
+      "state_robustness": 0.982
+    },
+    {
+      "feature": "Fpz-Cz:sigma",
+      "combined": 0.59,
+      "discriminability": 0.812,
+      "state_robustness": 0.429
+    },
+    {
+      "feature": "Fpz-Cz:hjorth_mob",
+      "combined": 0.551,
+      "discriminability": 1.057,
+      "state_robustness": 0.287
+    },
+    {
+      "feature": "Fpz-Cz:hjorth_act",
+      "combined": 0.531,
+      "discriminability": 0.986,
+      "state_robustness": 0.286
+    }
+  ],
+  "method": "TWO indices per feature: (1) state_robustness = between-subj var / within-subj-ACROSS-STATE var (ICC-like, stable across W/N1/N2/N3/REM); (2) discriminability = between-subj var / within-subj WITHIN-STATE epoch var (Fisher-like, separates PEOPLE). A genuine state-invariant identity carrier scores HIGH on BOTH (combined = geometric mean). This separates 'carries identity' from 'merely low-variance', addressing the confound.",
+  "note": "Descriptive (no classifier, no train/test) -> no leakage. W = resting/quiet wake, not active task wake. Interpret cautiously: all state_robustness <1 => state drift exceeds identity for every single feature; identity that survives across stages is distributed/nonlinear (motivates the encoder)."
+}

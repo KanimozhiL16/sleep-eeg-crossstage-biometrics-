@@ -1,0 +1,8 @@
+{
+  "within_stage_mean_EER": 28.730993270874023,
+  "cross_stage_mean_EER": 45.42944177985191,
+  "cross_minus_within": 16.69844850897789,
+  "random_identity_baseline_EER": 49.46733570098877,
+  "leakage_check": "PASS: features are untrained PSD; impostors subject-disjoint; no classifier fit on identity.",
+  "interpretation": "cross>>within => identity does NOT transfer across stages (stage-aware enrolment needed). random baseline should be ~50%."
+}
